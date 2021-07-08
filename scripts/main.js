@@ -13,6 +13,13 @@ firstP.setAttribute('style', 'color:red');
 
 container.appendChild(firstP);
 
+//Exercise 2 
+const newH3 = document.createElement('h3');
+newH3.textContent = "I'm a blue h3!";
+newH3.setAttribute('style','color: blue');
+
+container.appendChild(newH3);
+
 
 
   
